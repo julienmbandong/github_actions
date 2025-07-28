@@ -8,7 +8,7 @@ jobs:
         os: [ubuntu-latest, ubuntu-20.04]
     steps:
       - name: echo a string
-        run: echoo "Hello co2-emission-for-vehicles project team"
+        run: echo "Hello co2-emission-for-vehicles project team"
       - name: multiline script
         run: |
           python3 -V
